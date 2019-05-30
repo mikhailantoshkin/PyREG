@@ -1,5 +1,5 @@
 # PyREG
-Linux in-line forensic parser for Windows registry files. Uses python-registry library.
+Linux forensic parser for Windows registry files. Uses python-registry library.
 
 usage: PyREG.py [-h] [-k KEY] [-d {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}] [--deleted] [path]
 
