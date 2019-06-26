@@ -1,7 +1,9 @@
 # PyREG
 Linux forensic parser for Windows registry files. Uses python-registry library.
 
-usage: PyREG.py [-h] [-k KEY] [-d {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}] [--deleted] [path]
+usage: 
+```bash
+PyREG.py [-h] [-k KEY] [-d {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}] [--deleted] [path]
 
 positional arguments:
 
@@ -21,3 +23,4 @@ optional arguments:
                      
   --deleted          add deleted hive values to the end of the output. If 
                      -k is not given, shows all delited hive keys and values
+```
